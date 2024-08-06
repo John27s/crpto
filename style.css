@@ -1,0 +1,178 @@
+/* Reset and general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.menu ul li:hover,
+.menu ul li.active {
+    color: #f4b400;
+}
+
+.menu ul li.logo img {
+    width: 100px;
+}
+
+.menu ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu ul li a span {
+    padding: 10px 20px;
+    background-color: #f4b400;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover span {
+    background-color: #fff;
+    color: #333;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.app-text {
+    max-width: 50%;
+}
+
+.app-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.app-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.play-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.play-btn-inner {
+    width: 50px;
+    height: 50px;
+    background-color: #f4b400;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.play-btn-inner i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.app-picture {
+    width: 40%;
+    height: auto;
+    background-image: url('C:/Users/Acc/Documents/GitHub/website/Artboard.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.quick-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.quick-links ul li {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.quick-links ul li i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.quick-links ul li p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-icons ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons ul li {
+    margin: 0 10px;
+}
+
+.social-icons ul li a {
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons ul li a:hover {
+    color: #f4b400;
+}
